@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(Checking_list_function)
+
+add_subdirectory(catch2)
+add_executable(Checking_list_function Checking_list_function.cpp)
+target_link_libraries(Checking_list_function PRIVATE Catch2::Catch2)
